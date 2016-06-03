@@ -1,7 +1,7 @@
 ShellTube
 =========
 
-YouTube in your console, with a <50 line script!
+I got tired of my YouTube tab to burn through my laptop battery, so here you go: YouTube in your console, with a <50 line script!
 
 Usage:
 
