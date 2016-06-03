@@ -1,6 +1,15 @@
 ShellTube
 =========
 
+YouTube in your console!
+
+Usage:
+
+    $ ./play.sh armin  # stars playing Armin van Buuren
+    
+Installation
+------------
+
 Dependencies:
 - curl
 - youtube-dl
