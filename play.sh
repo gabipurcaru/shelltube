@@ -7,7 +7,7 @@ IFS="
 
 key="AIzaSyDepJUVmISBuie5EVPFeXh6Mg6P8Z5wIdU"
 
-url="https://www.googleapis.com/youtube/v3/search?key=$key&part=snippet&type=video&videoCategoryId=10"
+url="https://www.googleapis.com/youtube/v3/search?key=$key&part=snippet&type=video&videoCategoryId=10&maxResults=30"
 
 response=`curl -G $url --data-urlencode "q=$1" 2>/dev/null`
 
