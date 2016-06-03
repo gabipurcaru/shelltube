@@ -5,7 +5,7 @@ YouTube in your console, with a <50 line script!
 
 Usage:
 
-    $ ./play.sh armin  # stars playing Armin van Buuren
+    $ ./play.sh armin  # starts playing Armin van Buuren
 
 To Do
 -----
