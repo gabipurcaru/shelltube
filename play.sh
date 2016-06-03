@@ -11,11 +11,8 @@ url="https://www.googleapis.com/youtube/v3/search?key=$key&part=snippet&type=vid
 
 response=`curl -G $url --data-urlencode "q=$1" 2>/dev/null`
 
-video_ids=(`echo "$response" \
-	| jq -r ".items | .[] | .id.videoId"`)
-
-titles=(`echo "$response" \
-	| jq -r ".items | .[] | .snippet.title"`)
+video_ids=(`echo "$response" | jq -r ".items | .[] | .id.videoId"`)
+titles=(`echo "$response" | jq -r ".items | .[] | .snippet.title"`)
 
 for ((i = 0; i < ${#video_ids[@]}; i ++)); do
 	video_id=${video_ids[$i]}
